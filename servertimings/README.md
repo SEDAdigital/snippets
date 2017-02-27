@@ -20,12 +20,12 @@ Server timings are only sent to the browser if the user is logged into the backe
 When you then reload your frontend page, go to your chrome's dev tools, open the network tab, click on the document resource and open the subtab Timings. There you will see the Server Timings section with our MODX information.
 The following information is transferred:
 
-* MODX Total Time: the total time MODX stopped for the request/response `[^t^]`
-* Query Time ([cache|db]), #N): the query time, either cached or db, together with the number of executed queries `[^qt^]`, `[^s^]` and `[^q^]`
-* OnInitCulture: time from start of the request to the system event OnInitCulture
-* OnWebPageInit: time from OnInitCulture to OnWebPageInit-Event
-* OnLoadWebPageCache: (if cached) time from OnWebPageInit-Event to OnLoadWebPageCache
-* OnWebPagePrerender: (if cached) time from OnLoadWebPageCache to OnWebPagePrerender, (if uncached) time from OnWebPageInit to OnWebPagePrerender-Event
+* _MODX Total Time:_ the total time MODX stopped for the request/response `[^t^]`
+* _Query Time ([cache|db]), #N):_ the query time, either cached or db, together with the number of executed queries `[^qt^]`, `[^s^]` and `[^q^]`
+* _OnInitCulture:_ time from start of the request to the system event OnInitCulture
+* _OnWebPageInit:_ time from OnInitCulture to OnWebPageInit-Event
+* _OnLoadWebPageCache:_ (if cached) time from OnWebPageInit-Event to OnLoadWebPageCache
+* _OnWebPagePrerender:_ (if cached) time from OnLoadWebPageCache to OnWebPagePrerender, (if uncached) time from OnWebPageInit to OnWebPagePrerender-Event
 
 ## Future enhancements
 ### More timings
