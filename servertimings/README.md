@@ -1,7 +1,7 @@
 # Server-Timings
 
 ## Purpose
-Plugin which sends timing data to the Chrome Developer Tools, where the data is visible in the Network/Timings tab.
+Plugin which sends timing data to the Chrome Developer Tools, where the data is visible in the Network/Timings tab. Inspired by a tweet from Paul Irish https://twitter.com/paul_irish/status/829090506084749312.
 
 ## Use
 Create a plugin, copy the code from the file `servertimings.plugin.php` into it. Activate the following system events on the plugin:
