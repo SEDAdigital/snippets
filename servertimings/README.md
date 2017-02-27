@@ -8,6 +8,7 @@ Create a plugin, copy the code from the file `servertimings.plugin.php` into it.
 ```
 OnWebPageInit
 OnInitCulture
+OnLoadWebPageCache
 OnLoadWebDocument
 OnWebPagePrerender
 ```
