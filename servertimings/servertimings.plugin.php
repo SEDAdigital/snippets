@@ -1,14 +1,12 @@
 <?php
 
 /**
- *
  * Servertimings
  *
- * @project:    snippets
- * @author:     Jens Külzer <jk@seda.digital>
- * @date:       2917-02-27 15:30
- * @copyright:  2017 SEDA.digital GmbH & Co. KG
- *
+ * @project    snippets
+ * @author     Jens Külzer <jk@seda.digital>
+ * @date       2917-02-27 15:30
+ * @copyright  2017 SEDA.digital GmbH & Co. KG
  */
 
 switch($modx->event->name) {
